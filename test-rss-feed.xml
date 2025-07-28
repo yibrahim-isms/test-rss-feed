@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Ruby News</title>
+		<link>https://www.ruby-lang.org/en/feeds/news.rss</link>
+		<language>en-US</language>
+		<ttl>40</ttl>
+		<description>The latest news from ruby-lang.org.</description>
+		<item>
+			<title>Ruby 3.3.9 Released</title>
+			<description>&lt;p&gt;Ruby 3.3.9 has been released.&lt;/p&gt;
+
+&lt;p&gt;This release includes the following security fix of default gems:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/&quot;&gt;CVE-2025-24294: Possible Denial of Service in resolv gem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and the following fixes for build issues:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GCC 15.1&lt;/li&gt;
+  &lt;li&gt;Visual Studio 2022 Version 17.14&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_3_9&quot;&gt;GitHub releases&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 22217076
+SHA1: 26c37cff59c72a9249fa5fd3d9a301f320315ea1
+SHA256: d1991690a4e17233ec6b3c7844c1e1245c0adce3e00d713551d0458467b727b1
+SHA512: 3a8215e42dcaa9d28a74afbf371e88c7393ace54a606f96d3027edf23a41953ba53360d2dcd74a38008a4ec9ca18af3acf44686253d819891c0c613c29327254
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 16436904
+SHA1: b303b2dbcb46ce97c24e40ac0e3f5148058a2299
+SHA256: 2b24a2180a2f7f63c099851a1d01e6928cf56d515d136a91bd2075423a7a76bb
+SHA512: 52be800daf9e983dd7539f6961ee6d4e863c8f4eefdce4fb1091fdfe05339531832dd88d2a8b6f5cdcd790f9d5aefa3bc08574fcb2bab399200d20fa0ad1db18
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 27649882
+SHA1: eff79d7ee7f23bf0d5c68a81b3f006878037fcd5
+SHA256: 110546854051d5142eba38e9f212ac69a7862835634174a641f88796fefcf987
+SHA512: 67a6e0bdce21b237d8db62a8351fb544dc8cf15a1afcb111d0589b0384f6b977a3f779042ef49eb170256ac168e0477b8b56f343ab381422e788850c1d171382
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by nagachika on 24 Jul 2025&lt;/p&gt;</description>
+			<pubDate>Thu, 24 Jul 2025 11:00:00 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/</link>
+		</item>
+		<item>
+			<title>Ruby 3.2.9 Released</title>
+			<description>&lt;p&gt;Ruby 3.2.9 has been released.&lt;/p&gt;
+
+&lt;p&gt;This release includes the following security fixes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/&quot;&gt;CVE-2025-24294: Possible Denial of Service in resolv gem&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/news/2025/04/28/dos-net-imap-cve-2025-43857/&quot;&gt;CVE-2025-43857: DoS vulnerability in net-imap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and the following fixes for build issues:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GCC 15.1&lt;/li&gt;
+  &lt;li&gt;Visual Studio 2022 Version 17.14&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_2_9&quot;&gt;GitHub releases&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.9.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.9.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 20560944
+SHA1: 174f37666192a3fdc9cf24e5eddc0cf4d5de0b1e
+SHA256: abbad98db9aeb152773b0d35868e50003b8c467f3d06152577c4dfed9d88ed2a
+SHA512: d3fc84ee71a85f5a9bc75d7354508adf197238ee6fa0f83d72bb7659aaf9d4294ae577d64f4a937b511abf241d44d190643227577dcd9cd04dc0553375913975
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.9.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.9.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 15141728
+SHA1: c1bb7eb3b2254f9513abfc0b9335f4da14bfa093
+SHA256: cf6699d0084c588e7944d92e1a8edda28b1cc3ee471a1f0aebb4b3d32c9753b2
+SHA512: 4db0656694c25c971bcf3591516e6feddb7fc60c4474b63dd1d2c1481c3629421edc904666067b2dcbc47357db1a32b7bf412055306fe29cee30fa048f89b6e3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.9.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.9.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 25144424
+SHA1: a853b1413e73a827ca2bee640550f4ae54c9fe18
+SHA256: a3fc780839729c138ac9ef543ac505d67f04e404b65a404419843a2fed2f661b
+SHA512: 6a313a36d6e630fb795d37f18da1e908d03c05d7200ef86e2260a18b5fc71f8f3201431f255e3cf7a47e0ee25ab5b9158b9477100ad6729e1f7ebf13f9b0a840
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by hsbt on 24 Jul 2025&lt;/p&gt;</description>
+			<pubDate>Thu, 24 Jul 2025 08:51:53 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-2-9-released/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-2-9-released/</link>
+		</item>
+		<item>
+			<title>Ruby 3.4.5 Released</title>
+			<description>&lt;p&gt;Ruby 3.4.5 has been released.&lt;/p&gt;
+
+&lt;p&gt;This is a routine update that includes bug fixes and GCC 15 support. Please refer to the
+&lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_4_5&quot;&gt;release notes on GitHub&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;h2&gt;Release Schedule&lt;/h2&gt;
+
+&lt;p&gt;We intend to release the latest stable Ruby version (currently Ruby 3.4) every two months following the most recent release.
+Ruby 3.4.6 is scheduled for September, 3.4.7 for November, and 3.4.8 for January.&lt;/p&gt;
+
+&lt;p&gt;If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.5.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.5.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 23237143
+SHA1: ae40a537434bf432aa3b828bc4d13a295854cf40
+SHA256: 1d88d8a27b442fdde4aa06dc99e86b0bbf0b288963d8433112dd5fac798fd5ee
+SHA512: 985928770dc8cd551de8df75c95e33b454586e88b532d98fef2d1bcaf74750ebc0265cf0517a5a7df8dbf273e33fb8f6f22c3915327f8a26227cc0abcfd4964f
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.5.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.5.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 17265032
+SHA1: d4e7363acb04604bd67276ed3c2ad016c2de87b2
+SHA256: 7b3a905b84b8777aa29f557bada695c3ce108390657e614d2cc9e2fb7e459536
+SHA512: 1f5d2fd527d15bd81ca8f49767d6426533367c1018a1d275d34721a96410b51204236173224e5198a42b56162c6e7a7b0c060fc032a9fd7f250b44e05c7af560
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.5.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.5.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 28405937
+SHA1: 33cb17388dfa915638eeea3ddd156b5c79f79428
+SHA256: e1672ad3da2a8ea7820f4ede55d1d6f451c7f011c160991d4c9bdd4a38d18658
+SHA512: 557e220bca925d05af83d6779dbdf698f32f6e8b57c5138e9da80b02085faa134568a894949d2242ea1fe22b020035aa2b279c04791ac37c17f89dbf597a66c4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by k0kubun on 15 Jul 2025&lt;/p&gt;</description>
+			<pubDate>Tue, 15 Jul 2025 17:00:00 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/07/15/ruby-3-4-5-released/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/07/15/ruby-3-4-5-released/</link>
+		</item>
+		<item>
+			<title>CVE-2025-24294: Possible Denial of Service in resolv gem</title>
+			<description>&lt;p&gt;A denial of service vulnerability has been discovered in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resolv&lt;/code&gt; gem bundled with Ruby.
+This vulnerability has been assigned the CVE identifier &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2025-24294&quot;&gt;CVE-2025-24294&lt;/a&gt;.
+We recommend upgrading the resolv gem.&lt;/p&gt;
+
+&lt;h2&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;The vulnerability is caused by an insufficient check on the length of a decompressed domain name within a DNS packet.&lt;/p&gt;
+
+&lt;p&gt;An attacker can craft a malicious DNS packet containing a highly compressed domain name.
+When the resolv library parses such a packet, the name decompression process consumes a large amount of CPU resources, as the library does not limit the resulting length of the name.&lt;/p&gt;
+
+&lt;p&gt;This resource consumption can cause the application thread to become unresponsive, resulting in a Denial of Service condition.&lt;/p&gt;
+
+&lt;h2&gt;Affected versions&lt;/h2&gt;
+
+&lt;p&gt;The vulnerability affects the resolv gem bundled with the following Ruby series:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby 3.2 series: resolv version 0.2.2 and earlier&lt;/li&gt;
+  &lt;li&gt;Ruby 3.3 series: resolv version 0.3.0&lt;/li&gt;
+  &lt;li&gt;Ruby 3.4 series: resolv version 0.6.1 and earlier&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Credits&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://hackerone.com/manun&quot;&gt;Manu&lt;/a&gt; for discovering this issue.&lt;/p&gt;
+
+&lt;h2&gt;History&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Originally published at 2025-07-08 07:00:00 (UTC)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Posted by mame on 8 Jul 2025&lt;/p&gt;</description>
+			<pubDate>Tue, 08 Jul 2025 07:00:00 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/</link>
+		</item>
+		<item>
+			<title>Ruby 3.4.4 Released</title>
+			<description>&lt;p&gt;Ruby 3.4.4 has been released.&lt;/p&gt;
+
+&lt;p&gt;This release includes a fix for a YJIT bug related to local variables and addresses a build issue on Windows when using GCC 15.
+It was released ahead of schedule to make these fixes available as soon as possible.
+A few other bug fixes are also included.&lt;/p&gt;
+
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_4_4&quot;&gt;release notes on GitHub&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;h2&gt;Release Schedule&lt;/h2&gt;
+
+&lt;p&gt;We intend to release the latest stable Ruby version (currently Ruby 3.4) every two months following the most recent release.
+Following this release (3.4.4), Ruby 3.4.5 is scheduled for July, 3.4.6 for September, 3.4.7 for November, and 3.4.8 for January.&lt;/p&gt;
+
+&lt;p&gt;If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.4.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.4.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 23204581
+SHA1: aff18f17868d076f4516ea4209931ad55b264f73
+SHA256: a0597bfdf312e010efd1effaa8d7f1d7833146fdc17950caa8158ffa3dcbfa85
+SHA512: ec52e338a9558e5fb0975be4249ff47a2d8c7926d8ae3af58f4e5a233f400f75da88ce8254bac7a8cd7a6b0b87fd4eb7315944c76be43719782bd0c16040197b
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.4.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.4.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 17255388
+SHA1: 83ddf983c194b353634e91a86b466ce0d01bff39
+SHA256: f76d63efe9499dedd8526b74365c0c811af00dc9feb0bed7f5356488476e28f4
+SHA512: 0d258cf790daad424c866404b5cbdc8adba0e4e13764847a89adf2335229e5184095c9f3e9594705897697e48bcc322d9a9f919b04047abb2075daca9fce8871
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.4.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.4.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 28372208
+SHA1: 77377010d19109939fe11cadf1c210deda8ec202
+SHA256: 7c64e2c303ef8433e01cb3afd9be094707a9aa60355fcee08d12ca90e1e46399
+SHA512: f8dada5fae978b3eb82ed6863d3e8e25dfd90b3348eace2400d7428b0a1a9362bf88dc3138ef4b68bc5aaff781e90388e428390f5f55c5667fd24e4754544814
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by k0kubun on 14 May 2025&lt;/p&gt;</description>
+			<pubDate>Wed, 14 May 2025 18:20:00 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/05/14/ruby-3-4-4-released/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/05/14/ruby-3-4-4-released/</link>
+		</item>
+		<item>
+			<title>CVE-2025-43857: DoS vulnerability in net-imap</title>
+			<description>&lt;p&gt;There is a possibility for DoS by in the net-imap gem.  This vulnerability has been assigned the CVE identifier &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2025-43857&quot;&gt;CVE-2025-43857&lt;/a&gt;.  We recommend upgrading the net-imap gem.&lt;/p&gt;
+
+&lt;h2&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;A malicious server can send can send a “literal” byte count which is automatically read by the client’s receiver thread.  The response reader immediately allocates memory for the number of bytes indicated by the server response.  This should not be an issue when securely connecting to trusted IMAP servers that are well-behaved.  It affects insecure connections and buggy, untrusted, or compromised servers (for example, connecting to a user supplied hostname).&lt;/p&gt;
+
+&lt;p&gt;Please update net-imap gem to version 0.2.5, 0.3.9, 0.4.20, 0.5.7, or later.&lt;/p&gt;
+
+&lt;p&gt;When connecting to untrusted servers or using an insecure connection, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_response_size&lt;/code&gt; and response handlers must be configured appropriately to limit memory consumption.  See &lt;a href=&quot;https://github.com/ruby/net-imap/security/advisories/GHSA-j3g3-5qv5-52mj&quot;&gt;GHSA-j3g3-5qv5-52mj&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;h2&gt;Affected versions&lt;/h2&gt;
+
+&lt;p&gt;net-imap gem versions &amp;lt;= 0.2.4, 0.3.0 to 0.3.8, 0.4.0 to 0.4.19, and 0.5.0 to 0.5.6.&lt;/p&gt;
+
+&lt;h2&gt;Credits&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://hackerone.com/masamune_&quot;&gt;Masamune&lt;/a&gt; for discovering this issue.&lt;/p&gt;
+
+&lt;h2&gt;History&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Originally published at 2025-04-28 16:02:04 (UTC)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Posted by nevans on 28 Apr 2025&lt;/p&gt;</description>
+			<pubDate>Mon, 28 Apr 2025 16:02:04 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/04/28/dos-net-imap-cve-2025-43857/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/04/28/dos-net-imap-cve-2025-43857/</link>
+		</item>
+		<item>
+			<title>Ruby 3.5.0 preview1 Released</title>
+			<description>
+&lt;p&gt;We are pleased to announce the release of Ruby 3.5.0-preview1. Ruby 3.5 updates its Unicode version to 15.1.0, and so on.&lt;/p&gt;
+
+&lt;h2&gt;Language changes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*nil&lt;/code&gt; no longer calls &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nil.to_a&lt;/code&gt;, similar to how &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**nil&lt;/code&gt; does
+not call &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nil.to_hash&lt;/code&gt;.  [&lt;a href=&quot;https://bugs.ruby-lang.org/issues/21047&quot;&gt;Feature #21047&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Core classes updates&lt;/h2&gt;
+
+&lt;p&gt;Note: We’re only listing notable updates of Core class.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Binding&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Binding#local_variables&lt;/code&gt; does no longer include numbered parameters.
+Also, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Binding#local_variable_get&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Binding#local_variable_set&lt;/code&gt; reject to handle numbered parameters.
+[&lt;a href=&quot;https://bugs.ruby-lang.org/issues/21049&quot;&gt;Bug #21049&lt;/a&gt;]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;IO&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IO.select&lt;/code&gt; accepts +Float::INFINITY+ as a timeout argument.
+[&lt;a href=&quot;https://bugs.ruby-lang.org/issues/20610&quot;&gt;Feature #20610&lt;/a&gt;]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;String&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Update Unicode to Version 15.1.0 and Emoji Version 15.1. [&lt;a href=&quot;https://bugs.ruby-lang.org/issues/19908&quot;&gt;Feature #19908&lt;/a&gt;]
+  (also applies to Regexp)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Standard Library updates&lt;/h2&gt;
+
+&lt;p&gt;Note: We’re only listing notable updates of Standard librarires.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ostruct 0.6.1&lt;/li&gt;
+  &lt;li&gt;pstore 0.2.0&lt;/li&gt;
+  &lt;li&gt;benchmark 0.4.0&lt;/li&gt;
+  &lt;li&gt;logger 1.7.0&lt;/li&gt;
+  &lt;li&gt;rdoc 6.13.1&lt;/li&gt;
+  &lt;li&gt;win32ole 1.9.2&lt;/li&gt;
+  &lt;li&gt;irb 1.15.2&lt;/li&gt;
+  &lt;li&gt;reline 0.6.1&lt;/li&gt;
+  &lt;li&gt;readline 0.0.4&lt;/li&gt;
+  &lt;li&gt;fiddle 1.1.6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Compatibility issues&lt;/h2&gt;
+
+&lt;p&gt;Note: Excluding feature bug fixes.&lt;/p&gt;
+
+&lt;h2&gt;Standard library compatibility issues&lt;/h2&gt;
+
+&lt;h2&gt;C API updates&lt;/h2&gt;
+
+&lt;h2&gt;Miscellaneous changes&lt;/h2&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://github.com/ruby/ruby/blob/v3_5_0_preview1/NEWS.md&quot;&gt;NEWS&lt;/a&gt;
+or &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_4_0...v3_5_0_preview1&quot;&gt;commit logs&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+&lt;p&gt;With those changes, &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_3_0...v3_5_0_preview1#file_bucket&quot;&gt;2065 files changed, 36581 insertions(+), 203037 deletions(-)&lt;/a&gt;
+since Ruby 3.4.0!&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 23146162
+SHA1: ee0fcfe1342116f05060279ff0c9eb1e215db0b9
+SHA256: ecf09c7eb902e91cdaf9cc553cd00cca9b848b3fc0e14297850f9ab08cdd46f0
+SHA512: d718973648705636eff5933a0919132fd1f6b9afea432e09cce1265c6e0125e11cc94dbff84cba1caefc03190c48d8af4a27337d2af031f3f1660ca3a3531211
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 17443928
+SHA1: 8a78a9189afa20cde42207a466bcf7d421ee144b
+SHA256: c6cc1e9f23fe4719b024b8305345ca0cff4e1bc159f3ebff86cb5b87969863aa
+SHA512: 835bd0b65d546722c83b0ab454256357b48898a0de9aa8e38966f53d2370a6e99552eeaff76a0b680aefbbe7491e701e5e7357797e50f063c53e79d9561c1dac
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 28548713
+SHA1: bd0c32bc84ac1ce9edbc9c0a50e8c72e56b1229d
+SHA256: 3e1d9df578c69976a01a69b961819d00c4e8942f8b5fe4fb8e135fca4f7e7e5e
+SHA512: 47057e1615b2b59d5bbd0d6629e1320ed74f3d70748f1db4e8b88d6c8a3ecd255eacc7dac0cccd01923fae4b4dff9e6b9457a9858c81dab81c1ab9ee514b15fa
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What is Ruby&lt;/h2&gt;
+
+&lt;p&gt;Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+and is now developed as Open Source. It runs on multiple platforms
+and is used all over the world especially for web development.&lt;/p&gt;
+
+
+&lt;p&gt;Posted by naruse on 18 Apr 2025&lt;/p&gt;</description>
+			<pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/04/18/ruby-3-5-0-preview1-released/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/04/18/ruby-3-5-0-preview1-released/</link>
+		</item>
+		<item>
+			<title>Ruby 3.4.3 Released</title>
+			<description>&lt;p&gt;Ruby 3.4.3 has been released.&lt;/p&gt;
+
+&lt;p&gt;This is a routine update that includes bug fixes. Please refer to the
+&lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_4_3&quot;&gt;release notes on GitHub&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;h2&gt;Release Schedule&lt;/h2&gt;
+
+&lt;p&gt;We intend to release the latest stable Ruby version (currently Ruby 3.4) every 2 months.
+Ruby 3.4.4 will be released in June, 3.4.5 in August, 3.4.6 in October, and 3.4.7 in December.&lt;/p&gt;
+
+&lt;p&gt;If there’s any change that affects a considerable amount of people, those versions may be released earlier than expected.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.3.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.3.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 23194448
+SHA1: c269cd122ab9d4620a1e0e6a8f4de378deec3799
+SHA256: 55a4cd1dcbe5ca27cf65e89a935a482c2bb2284832939266551c0ec68b437f46
+SHA512: 7019889939713c3e649003fed4d973dced36239fc354cfdee2d01dbdeb7e8512881a31b00efc3d5017f08cd492aed7914d15927bc8d076c0cae7534273e471e9
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.3.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.3.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 17230984
+SHA1: d0d86fdfe6bcf9f2eb3b450f3209f655ceda86da
+SHA256: 174dcd8c516694f833fd3c93ea227fa6c3321464577a3882a6fc7e4fe20237fd
+SHA512: b30aad675cdcc1bdfe9e5fffe9d1925db3b3ac854a5e34180c368bc6e66f73e29ba5d802fea249353b7d799c01384c58bdd763fd1b679303158baa7824b9c08e
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.3.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.3.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 28356998
+SHA1: 87cb747a766660cf487a2e9dbbc7a18a8f6b65d9
+SHA256: 06b8bf2ddf2642327c992d30f5d414ffa5a5df0c4c706d7b2507b42509fb5055
+SHA512: b25289c899318ce5071b075fc1b75f602e0a543faeefa44df7e8064933500f9c357685fe21d09abc4034d481c22c89491c841f596d07e1cd269d800e6266cc24
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by k0kubun on 14 Apr 2025&lt;/p&gt;</description>
+			<pubDate>Mon, 14 Apr 2025 08:06:57 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/04/14/ruby-3-4-3-released/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/04/14/ruby-3-4-3-released/</link>
+		</item>
+		<item>
+			<title>Ruby 3.3.8 Released</title>
+			<description>&lt;p&gt;Ruby 3.3.8 has been released.&lt;/p&gt;
+
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_3_8&quot;&gt;GitHub releases&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 22197497
+SHA1: 71b8362d413f58ed5aef2ecd132769210c45f058
+SHA256: 5ae28a87a59a3e4ad66bc2931d232dbab953d0aa8f6baf3bc4f8f80977c89cab
+SHA512: c5005ba4019fbae19650a9a9ce139e13608345065da9e2277dbeac9d0ac9e3b07b666816afe7be690088080c8c9cf88a8c372971d429479dcebea80d6c2e3883
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 16435924
+SHA1: 9ee07098fd930744d8df5d4945b5f99d2fecb9ef
+SHA256: 44ae70fee043da3ce48289b7a52618ebe32dc083253993d486211c7e445c8642
+SHA512: 71c2f3ac9955e088fa885fd2ff695e67362a770a5d33e5160081eda3dd298ca2c692e299b03d757caecfbc94043fedc4ad093de84c505585d480cb36bbf978b9
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 27628937
+SHA1: 4c0d938d2791ab696e921557aec19613bb364a67
+SHA256: 389b8deae02849e769855dea892c921d3387b6548209189837a00f1cdf353797
+SHA512: 1aa6a0412760d0d1f423cd5f02533696b7c952c04f567b89aa875997e1d53a548c294c0b771a9e06e666daab038e3481a6251e361163449f92b02ab3a89a6373
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by nagachika on 9 Apr 2025&lt;/p&gt;</description>
+			<pubDate>Wed, 09 Apr 2025 11:00:00 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/04/09/ruby-3-3-8-released/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/04/09/ruby-3-3-8-released/</link>
+		</item>
+		<item>
+			<title>Ruby 3.2.8 Released</title>
+			<description>&lt;p&gt;Ruby 3.2.8 has been released. This release includes &lt;a href=&quot;https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/&quot;&gt;CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221 fixes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_2_8&quot;&gt;GitHub releases&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;p&gt;This version is a last version of normal maintenance for Ruby 3.2 series. We will fix only security issues for Ruby 3.2 series until end of March 2026.&lt;/p&gt;
+
+&lt;p&gt;Please consider upgrading to Ruby 3.3 or 3.4 series.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.8.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.8.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 20549999
+SHA1: 419ecff4a0f8e805ddb1314344ffad33afde91d8
+SHA256: 77acdd8cfbbe1f8e573b5e6536e03c5103df989dc05fa68c70f011833c356075
+SHA512: 342d9ce337936cdbaa5d63a4d393edf0594e431add8cec3b6f17b884075bfdc5aa7a843c03f4ee3bece01700dfa4707bba653715a628d9dcb230762dbd3e5ac8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.8.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.8.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 15130380
+SHA1: 570b529a10784fc16bb0339e6d37408adf9cd31d
+SHA256: 1cccd3100155275293ae5d4ea0a1a1068f5de69e71732220f144acce26327a3c
+SHA512: 19ff96619945d907e509803b85ecf21750ffa4ae033045272feb43c183ab180d0033b98cf47c18804e448f01bc1928e3b833c61c98446dbe6be31fb9ea6b059d
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.8.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.8.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 25134315
+SHA1: c80bf2e90b3bbfbedc9c8b65d401ce4bd0ed4263
+SHA256: c8ca517937c05e03ae52c41dad16ccf12ffae323365e73f3720142421f3aa2c7
+SHA512: e248bc2a37b32edca0508df3016ac933089170deba6eec5479d8fb45a3d022c4c9532de2b5486863d30233bd276b14335e8d5ee97c371746b26d64f4864e80d3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by hsbt on 26 Mar 2025&lt;/p&gt;</description>
+			<pubDate>Wed, 26 Mar 2025 04:45:01 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/03/26/ruby-3-2-8-released/</link>
+		</item>
+	</channel>
+</rss>
