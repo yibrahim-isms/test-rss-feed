@@ -69,6 +69,67 @@ Thanks for their contributions.&lt;/p&gt;
 			<link>https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/</link>
 		</item>
 		<item>
+			<title>Ruby 5.0.0 Released</title>
+			<description>&lt;p&gt;Ruby 3.3.9 has been released.&lt;/p&gt;
+
+&lt;p&gt;This release includes the following security fix of default gems:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/&quot;&gt;CVE-2025-24294: Possible Denial of Service in resolv gem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and the following fixes for build issues:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GCC 15.1&lt;/li&gt;
+  &lt;li&gt;Visual Studio 2022 Version 17.14&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_3_9&quot;&gt;GitHub releases&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 22217076
+SHA1: 26c37cff59c72a9249fa5fd3d9a301f320315ea1
+SHA256: d1991690a4e17233ec6b3c7844c1e1245c0adce3e00d713551d0458467b727b1
+SHA512: 3a8215e42dcaa9d28a74afbf371e88c7393ace54a606f96d3027edf23a41953ba53360d2dcd74a38008a4ec9ca18af3acf44686253d819891c0c613c29327254
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 16436904
+SHA1: b303b2dbcb46ce97c24e40ac0e3f5148058a2299
+SHA256: 2b24a2180a2f7f63c099851a1d01e6928cf56d515d136a91bd2075423a7a76bb
+SHA512: 52be800daf9e983dd7539f6961ee6d4e863c8f4eefdce4fb1091fdfe05339531832dd88d2a8b6f5cdcd790f9d5aefa3bc08574fcb2bab399200d20fa0ad1db18
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.9.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 27649882
+SHA1: eff79d7ee7f23bf0d5c68a81b3f006878037fcd5
+SHA256: 110546854051d5142eba38e9f212ac69a7862835634174a641f88796fefcf987
+SHA512: 67a6e0bdce21b237d8db62a8351fb544dc8cf15a1afcb111d0589b0384f6b977a3f779042ef49eb170256ac168e0477b8b56f343ab381422e788850c1d171382
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by nagachika on 24 Jul 2025&lt;/p&gt;</description>
+			<pubDate>Mon, 28 Jul 2025 11:00:00 +0000</pubDate>
+			<guid>https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/</guid>
+			<link>https://www.ruby-lang.org/en/news/2025/07/24/ruby-3-3-9-released/</link>
+		</item>
+		<item>
 			<title>Ruby 4.0.0 Released</title>
 			<description>&lt;p&gt;Ruby 4.0.0 has been released.&lt;/p&gt;
 
